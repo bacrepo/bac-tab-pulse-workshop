@@ -6,3 +6,5 @@ __pycache__/
 # Code
 *.py
 raw_data/
+
+.nojekyll

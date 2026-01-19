@@ -1,440 +1,440 @@
 TargetYearMonth,Segment,Category,SalesTarget
-202201,Consumer,Furniture,700.0
-202201,Consumer,Office Supplies,1500.0
+202201,Consumer,Furniture,900.0
+202201,Consumer,Office Supplies,1600.0
 202201,Consumer,Technology,500.0
 202201,Corporate,Furniture,500.0
 202201,Corporate,Office Supplies,800.0
-202201,Corporate,Technology,500.0
-202201,Home Office,Furniture,1900.0
-202201,Home Office,Office Supplies,1000.0
-202201,Home Office,Technology,1000.0
-202202,Consumer,Furniture,3900.0
-202202,Consumer,Office Supplies,1200.0
-202202,Consumer,Technology,2100.0
+202201,Corporate,Technology,700.0
+202201,Home Office,Furniture,2200.0
+202201,Home Office,Office Supplies,700.0
+202201,Home Office,Technology,900.0
+202202,Consumer,Furniture,2500.0
+202202,Consumer,Office Supplies,1400.0
+202202,Consumer,Technology,1700.0
 202202,Corporate,Furniture,500.0
 202202,Corporate,Office Supplies,500.0
-202202,Corporate,Technology,500.0
+202202,Corporate,Technology,700.0
 202202,Home Office,Furniture,500.0
-202202,Home Office,Office Supplies,700.0
+202202,Home Office,Office Supplies,500.0
 202202,Home Office,Technology,500.0
-202203,Consumer,Furniture,1500.0
-202203,Consumer,Office Supplies,3000.0
-202203,Consumer,Technology,500.0
-202203,Corporate,Furniture,1400.0
-202203,Corporate,Office Supplies,800.0
-202203,Corporate,Technology,1200.0
-202203,Home Office,Furniture,2800.0
+202203,Consumer,Furniture,2600.0
+202203,Consumer,Office Supplies,2600.0
+202203,Consumer,Technology,600.0
+202203,Corporate,Furniture,1300.0
+202203,Corporate,Office Supplies,600.0
+202203,Corporate,Technology,700.0
+202203,Home Office,Furniture,2200.0
 202203,Home Office,Office Supplies,500.0
-202203,Home Office,Technology,700.0
-202204,Consumer,Furniture,4900.0
-202204,Consumer,Office Supplies,3200.0
-202204,Consumer,Technology,2100.0
-202204,Corporate,Furniture,7800.0
-202204,Corporate,Office Supplies,7900.0
-202204,Corporate,Technology,5500.0
-202204,Home Office,Furniture,2000.0
-202204,Home Office,Office Supplies,2500.0
-202204,Home Office,Technology,21200.0
-202205,Consumer,Furniture,5300.0
-202205,Consumer,Office Supplies,2500.0
-202205,Consumer,Technology,5300.0
-202205,Corporate,Furniture,3300.0
-202205,Corporate,Office Supplies,2400.0
+202203,Home Office,Technology,500.0
+202204,Consumer,Furniture,3000.0
+202204,Consumer,Office Supplies,4500.0
+202204,Consumer,Technology,3500.0
+202204,Corporate,Furniture,5100.0
+202204,Corporate,Office Supplies,5900.0
+202204,Corporate,Technology,6200.0
+202204,Home Office,Furniture,4000.0
+202204,Home Office,Office Supplies,1800.0
+202204,Home Office,Technology,33100.0
+202205,Consumer,Furniture,4200.0
+202205,Consumer,Office Supplies,1900.0
+202205,Consumer,Technology,7300.0
+202205,Corporate,Furniture,2100.0
+202205,Corporate,Office Supplies,2800.0
 202205,Corporate,Technology,500.0
-202205,Home Office,Furniture,2700.0
+202205,Home Office,Furniture,2100.0
 202205,Home Office,Office Supplies,1200.0
-202206,Consumer,Furniture,4600.0
-202206,Consumer,Office Supplies,3900.0
-202206,Consumer,Technology,5000.0
-202206,Corporate,Furniture,2500.0
-202206,Corporate,Office Supplies,4700.0
-202206,Corporate,Technology,2400.0
-202206,Home Office,Furniture,2600.0
-202206,Home Office,Office Supplies,2800.0
+202206,Consumer,Furniture,4400.0
+202206,Consumer,Office Supplies,2400.0
+202206,Consumer,Technology,6800.0
+202206,Corporate,Furniture,3500.0
+202206,Corporate,Office Supplies,4100.0
+202206,Corporate,Technology,1500.0
+202206,Home Office,Furniture,3100.0
+202206,Home Office,Office Supplies,4500.0
 202206,Home Office,Technology,500.0
-202207,Consumer,Furniture,3900.0
-202207,Consumer,Office Supplies,9600.0
-202207,Consumer,Technology,8300.0
-202207,Corporate,Furniture,3600.0
-202207,Corporate,Office Supplies,800.0
-202207,Corporate,Technology,1100.0
-202207,Home Office,Furniture,1600.0
-202207,Home Office,Office Supplies,800.0
+202207,Consumer,Furniture,4500.0
+202207,Consumer,Office Supplies,7600.0
+202207,Consumer,Technology,6400.0
+202207,Corporate,Furniture,3400.0
+202207,Corporate,Office Supplies,900.0
+202207,Corporate,Technology,1200.0
+202207,Home Office,Furniture,1500.0
+202207,Home Office,Office Supplies,500.0
 202207,Home Office,Technology,500.0
-202208,Consumer,Furniture,4300.0
-202208,Consumer,Office Supplies,18800.0
-202208,Consumer,Technology,5000.0
-202208,Corporate,Furniture,4000.0
-202208,Corporate,Office Supplies,1700.0
+202208,Consumer,Furniture,3900.0
+202208,Consumer,Office Supplies,13700.0
+202208,Consumer,Technology,6100.0
+202208,Corporate,Furniture,4200.0
+202208,Corporate,Office Supplies,1400.0
 202208,Corporate,Technology,1500.0
-202208,Home Office,Furniture,1500.0
-202208,Home Office,Office Supplies,1900.0
-202208,Home Office,Technology,1700.0
-202209,Consumer,Furniture,13600.0
-202209,Consumer,Office Supplies,6700.0
-202209,Consumer,Technology,15000.0
-202209,Corporate,Furniture,2200.0
-202209,Corporate,Office Supplies,3100.0
-202209,Corporate,Technology,1800.0
-202209,Home Office,Furniture,1600.0
-202209,Home Office,Office Supplies,1000.0
+202208,Home Office,Furniture,1000.0
+202208,Home Office,Office Supplies,1400.0
+202208,Home Office,Technology,1600.0
+202209,Consumer,Furniture,14600.0
+202209,Consumer,Office Supplies,7200.0
+202209,Consumer,Technology,13200.0
+202209,Corporate,Furniture,2700.0
+202209,Corporate,Office Supplies,3600.0
+202209,Corporate,Technology,2100.0
+202209,Home Office,Furniture,1200.0
+202209,Home Office,Office Supplies,600.0
 202209,Home Office,Technology,500.0
-202210,Consumer,Furniture,9900.0
-202210,Consumer,Office Supplies,21000.0
-202210,Consumer,Technology,13300.0
-202210,Corporate,Furniture,4100.0
+202210,Consumer,Furniture,10200.0
+202210,Consumer,Office Supplies,19300.0
+202210,Consumer,Technology,15400.0
+202210,Corporate,Furniture,3100.0
 202210,Corporate,Office Supplies,3900.0
-202210,Corporate,Technology,10500.0
-202210,Home Office,Furniture,3500.0
-202210,Home Office,Office Supplies,1100.0
+202210,Corporate,Technology,10300.0
+202210,Home Office,Furniture,3200.0
+202210,Home Office,Office Supplies,1000.0
 202210,Home Office,Technology,500.0
-202211,Consumer,Furniture,7900.0
-202211,Consumer,Office Supplies,9600.0
-202211,Consumer,Technology,11200.0
-202211,Corporate,Furniture,3800.0
-202211,Corporate,Office Supplies,5800.0
-202211,Corporate,Technology,3300.0
+202211,Consumer,Furniture,11100.0
+202211,Consumer,Office Supplies,6600.0
+202211,Consumer,Technology,14400.0
+202211,Corporate,Furniture,4300.0
+202211,Corporate,Office Supplies,6300.0
+202211,Corporate,Technology,2800.0
 202211,Home Office,Furniture,500.0
-202211,Home Office,Office Supplies,800.0
-202211,Home Office,Technology,6500.0
-202212,Consumer,Furniture,16300.0
-202212,Consumer,Office Supplies,8000.0
-202212,Consumer,Technology,24800.0
-202212,Corporate,Furniture,9200.0
-202212,Corporate,Office Supplies,11100.0
-202212,Corporate,Technology,3200.0
-202212,Home Office,Furniture,1400.0
-202212,Home Office,Office Supplies,3000.0
-202212,Home Office,Technology,2400.0
-202301,Consumer,Furniture,12300.0
-202301,Consumer,Office Supplies,8300.0
-202301,Consumer,Technology,2500.0
-202301,Corporate,Furniture,5500.0
-202301,Corporate,Office Supplies,4200.0
-202301,Corporate,Technology,4000.0
-202301,Home Office,Furniture,5100.0
-202301,Home Office,Office Supplies,1500.0
-202301,Home Office,Technology,4100.0
-202302,Consumer,Furniture,7500.0
-202302,Consumer,Office Supplies,800.0
-202302,Consumer,Technology,2300.0
+202211,Home Office,Office Supplies,1000.0
+202211,Home Office,Technology,8600.0
+202212,Consumer,Furniture,21600.0
+202212,Consumer,Office Supplies,7000.0
+202212,Consumer,Technology,14900.0
+202212,Corporate,Furniture,5900.0
+202212,Corporate,Office Supplies,13000.0
+202212,Corporate,Technology,2900.0
+202212,Home Office,Furniture,1200.0
+202212,Home Office,Office Supplies,1700.0
+202212,Home Office,Technology,900.0
+202301,Consumer,Furniture,10300.0
+202301,Consumer,Office Supplies,5500.0
+202301,Consumer,Technology,10400.0
+202301,Corporate,Furniture,8700.0
+202301,Corporate,Office Supplies,5200.0
+202301,Corporate,Technology,5400.0
+202301,Home Office,Furniture,7400.0
+202301,Home Office,Office Supplies,1400.0
+202301,Home Office,Technology,4200.0
+202302,Consumer,Furniture,11000.0
+202302,Consumer,Office Supplies,700.0
+202302,Consumer,Technology,3600.0
 202302,Corporate,Furniture,500.0
-202302,Corporate,Office Supplies,500.0
+202302,Corporate,Office Supplies,800.0
 202302,Corporate,Technology,500.0
 202302,Home Office,Furniture,500.0
 202302,Home Office,Office Supplies,500.0
-202303,Consumer,Furniture,4700.0
-202303,Consumer,Office Supplies,4900.0
-202303,Consumer,Technology,2900.0
-202303,Corporate,Furniture,1500.0
+202303,Consumer,Furniture,3700.0
+202303,Consumer,Office Supplies,5100.0
+202303,Consumer,Technology,2700.0
+202303,Corporate,Furniture,2600.0
 202303,Corporate,Office Supplies,500.0
-202303,Corporate,Technology,2700.0
-202303,Home Office,Furniture,1700.0
+202303,Corporate,Technology,1600.0
+202303,Home Office,Furniture,2700.0
 202303,Home Office,Office Supplies,500.0
-202303,Home Office,Technology,600.0
-202304,Consumer,Furniture,1900.0
-202304,Consumer,Office Supplies,9100.0
-202304,Consumer,Technology,3900.0
-202304,Corporate,Furniture,4400.0
-202304,Corporate,Office Supplies,5300.0
-202304,Corporate,Technology,5100.0
-202304,Home Office,Furniture,3200.0
-202304,Home Office,Office Supplies,1300.0
-202304,Home Office,Technology,600.0
-202305,Consumer,Furniture,4800.0
-202305,Consumer,Office Supplies,6700.0
-202305,Consumer,Technology,11600.0
-202305,Corporate,Furniture,2200.0
-202305,Corporate,Office Supplies,900.0
-202305,Corporate,Technology,3000.0
-202305,Home Office,Furniture,1300.0
-202305,Home Office,Office Supplies,4100.0
+202303,Home Office,Technology,700.0
+202304,Consumer,Furniture,700.0
+202304,Consumer,Office Supplies,10200.0
+202304,Consumer,Technology,2400.0
+202304,Corporate,Furniture,3400.0
+202304,Corporate,Office Supplies,3700.0
+202304,Corporate,Technology,6600.0
+202304,Home Office,Furniture,3000.0
+202304,Home Office,Office Supplies,1100.0
+202304,Home Office,Technology,500.0
+202305,Consumer,Furniture,6800.0
+202305,Consumer,Office Supplies,4000.0
+202305,Consumer,Technology,10100.0
+202305,Corporate,Furniture,1200.0
+202305,Corporate,Office Supplies,700.0
+202305,Corporate,Technology,1900.0
+202305,Home Office,Furniture,700.0
+202305,Home Office,Office Supplies,6300.0
 202305,Home Office,Technology,500.0
-202306,Consumer,Furniture,6400.0
-202306,Consumer,Office Supplies,4600.0
-202306,Consumer,Technology,5400.0
-202306,Corporate,Furniture,2300.0
-202306,Corporate,Office Supplies,2900.0
-202306,Corporate,Technology,1400.0
+202306,Consumer,Furniture,5400.0
+202306,Consumer,Office Supplies,5500.0
+202306,Consumer,Technology,5500.0
+202306,Corporate,Furniture,4100.0
+202306,Corporate,Office Supplies,3000.0
+202306,Corporate,Technology,700.0
 202306,Home Office,Furniture,500.0
-202306,Home Office,Office Supplies,1900.0
-202306,Home Office,Technology,500.0
-202307,Consumer,Furniture,6700.0
-202307,Consumer,Office Supplies,5600.0
-202307,Consumer,Technology,5700.0
-202307,Corporate,Furniture,3200.0
-202307,Corporate,Office Supplies,1300.0
-202307,Corporate,Technology,1300.0
+202306,Home Office,Office Supplies,2700.0
+202306,Home Office,Technology,700.0
+202307,Consumer,Furniture,7000.0
+202307,Consumer,Office Supplies,7100.0
+202307,Consumer,Technology,6900.0
+202307,Corporate,Furniture,2500.0
+202307,Corporate,Office Supplies,1700.0
+202307,Corporate,Technology,1800.0
 202307,Home Office,Furniture,1100.0
-202307,Home Office,Office Supplies,500.0
+202307,Home Office,Office Supplies,1000.0
 202307,Home Office,Technology,500.0
-202308,Consumer,Furniture,6600.0
-202308,Consumer,Office Supplies,3200.0
-202308,Consumer,Technology,8200.0
-202308,Corporate,Furniture,3100.0
-202308,Corporate,Office Supplies,900.0
-202308,Corporate,Technology,1500.0
-202308,Home Office,Furniture,2200.0
-202308,Home Office,Office Supplies,500.0
-202308,Home Office,Technology,600.0
-202309,Consumer,Furniture,5200.0
-202309,Consumer,Office Supplies,7600.0
-202309,Consumer,Technology,10800.0
-202309,Corporate,Furniture,6200.0
+202308,Consumer,Furniture,4400.0
+202308,Consumer,Office Supplies,3300.0
+202308,Consumer,Technology,8800.0
+202308,Corporate,Furniture,3900.0
+202308,Corporate,Office Supplies,1000.0
+202308,Corporate,Technology,1100.0
+202308,Home Office,Furniture,2000.0
+202308,Home Office,Office Supplies,600.0
+202308,Home Office,Technology,700.0
+202309,Consumer,Furniture,3200.0
+202309,Consumer,Office Supplies,9300.0
+202309,Consumer,Technology,8300.0
+202309,Corporate,Furniture,3900.0
 202309,Corporate,Office Supplies,4400.0
-202309,Corporate,Technology,8200.0
-202309,Home Office,Furniture,1300.0
-202309,Home Office,Office Supplies,3200.0
-202309,Home Office,Technology,1200.0
-202310,Consumer,Furniture,18100.0
-202310,Consumer,Office Supplies,8100.0
-202310,Consumer,Technology,13600.0
-202310,Corporate,Furniture,1600.0
-202310,Corporate,Office Supplies,5700.0
-202310,Corporate,Technology,6700.0
-202310,Home Office,Furniture,4500.0
-202310,Home Office,Office Supplies,2000.0
-202310,Home Office,Technology,2100.0
-202311,Consumer,Furniture,11600.0
+202309,Corporate,Technology,7500.0
+202309,Home Office,Furniture,1600.0
+202309,Home Office,Office Supplies,2500.0
+202309,Home Office,Technology,1100.0
+202310,Consumer,Furniture,21500.0
+202310,Consumer,Office Supplies,9100.0
+202310,Consumer,Technology,11800.0
+202310,Corporate,Furniture,2600.0
+202310,Corporate,Office Supplies,4300.0
+202310,Corporate,Technology,4900.0
+202310,Home Office,Furniture,6100.0
+202310,Home Office,Office Supplies,1300.0
+202310,Home Office,Technology,1800.0
+202311,Consumer,Furniture,7500.0
 202311,Consumer,Office Supplies,5200.0
-202311,Consumer,Technology,6400.0
-202311,Corporate,Furniture,9000.0
-202311,Corporate,Office Supplies,4000.0
-202311,Corporate,Technology,7800.0
+202311,Consumer,Technology,7700.0
+202311,Corporate,Furniture,10800.0
+202311,Corporate,Office Supplies,4400.0
+202311,Corporate,Technology,8500.0
 202311,Home Office,Furniture,3500.0
-202311,Home Office,Office Supplies,3400.0
-202311,Home Office,Technology,4300.0
-202312,Consumer,Furniture,10000.0
-202312,Consumer,Office Supplies,10700.0
-202312,Consumer,Technology,8700.0
-202312,Corporate,Furniture,3800.0
-202312,Corporate,Office Supplies,7900.0
-202312,Corporate,Technology,3100.0
-202312,Home Office,Furniture,9600.0
-202312,Home Office,Office Supplies,3900.0
-202312,Home Office,Technology,6200.0
-202401,Consumer,Furniture,5400.0
-202401,Consumer,Office Supplies,4700.0
-202401,Consumer,Technology,9600.0
-202401,Corporate,Furniture,7700.0
-202401,Corporate,Office Supplies,1700.0
-202401,Corporate,Technology,10300.0
-202401,Home Office,Furniture,2400.0
-202401,Home Office,Office Supplies,900.0
-202401,Home Office,Technology,3800.0
-202402,Consumer,Furniture,4100.0
-202402,Consumer,Office Supplies,3100.0
-202402,Consumer,Technology,9100.0
-202402,Corporate,Furniture,1100.0
+202311,Home Office,Office Supplies,2500.0
+202311,Home Office,Technology,4000.0
+202312,Consumer,Furniture,10300.0
+202312,Consumer,Office Supplies,9600.0
+202312,Consumer,Technology,10100.0
+202312,Corporate,Furniture,3600.0
+202312,Corporate,Office Supplies,5000.0
+202312,Corporate,Technology,4500.0
+202312,Home Office,Furniture,6500.0
+202312,Home Office,Office Supplies,2600.0
+202312,Home Office,Technology,5900.0
+202401,Consumer,Furniture,6300.0
+202401,Consumer,Office Supplies,5200.0
+202401,Consumer,Technology,11900.0
+202401,Corporate,Furniture,6200.0
+202401,Corporate,Office Supplies,1900.0
+202401,Corporate,Technology,10100.0
+202401,Home Office,Furniture,2800.0
+202401,Home Office,Office Supplies,1300.0
+202401,Home Office,Technology,4800.0
+202402,Consumer,Furniture,5500.0
+202402,Consumer,Office Supplies,1000.0
+202402,Consumer,Technology,12100.0
+202402,Corporate,Furniture,700.0
 202402,Corporate,Office Supplies,1900.0
-202402,Corporate,Technology,1500.0
+202402,Corporate,Technology,1100.0
 202402,Home Office,Furniture,500.0
-202402,Home Office,Office Supplies,2100.0
-202402,Home Office,Technology,2900.0
-202403,Consumer,Furniture,4600.0
-202403,Consumer,Office Supplies,5700.0
-202403,Consumer,Technology,6700.0
-202403,Corporate,Furniture,4800.0
-202403,Corporate,Office Supplies,8200.0
-202403,Corporate,Technology,1800.0
-202403,Home Office,Furniture,1800.0
-202403,Home Office,Office Supplies,3100.0
-202403,Home Office,Technology,7900.0
-202404,Consumer,Furniture,10500.0
-202404,Consumer,Office Supplies,4900.0
-202404,Consumer,Technology,3500.0
-202404,Corporate,Furniture,2100.0
-202404,Corporate,Office Supplies,800.0
+202402,Home Office,Office Supplies,3100.0
+202402,Home Office,Technology,2100.0
+202403,Consumer,Furniture,4900.0
+202403,Consumer,Office Supplies,6800.0
+202403,Consumer,Technology,6300.0
+202403,Corporate,Furniture,2900.0
+202403,Corporate,Office Supplies,10300.0
+202403,Corporate,Technology,2100.0
+202403,Home Office,Furniture,1400.0
+202403,Home Office,Office Supplies,2600.0
+202403,Home Office,Technology,10500.0
+202404,Consumer,Furniture,8800.0
+202404,Consumer,Office Supplies,7800.0
+202404,Consumer,Technology,2400.0
+202404,Corporate,Furniture,4600.0
+202404,Corporate,Office Supplies,1000.0
 202404,Corporate,Technology,2100.0
-202404,Home Office,Furniture,1400.0
-202404,Home Office,Office Supplies,500.0
-202404,Home Office,Technology,2000.0
-202405,Consumer,Furniture,3300.0
-202405,Consumer,Office Supplies,4500.0
-202405,Consumer,Technology,3800.0
-202405,Corporate,Furniture,2300.0
-202405,Corporate,Office Supplies,2600.0
-202405,Corporate,Technology,10600.0
-202405,Home Office,Furniture,4300.0
-202405,Home Office,Office Supplies,2200.0
-202405,Home Office,Technology,1700.0
-202406,Consumer,Furniture,8400.0
-202406,Consumer,Office Supplies,7900.0
-202406,Consumer,Technology,17900.0
-202406,Corporate,Furniture,8100.0
-202406,Corporate,Office Supplies,1700.0
-202406,Corporate,Technology,6300.0
-202406,Home Office,Furniture,2400.0
-202406,Home Office,Office Supplies,3600.0
-202406,Home Office,Technology,5700.0
-202407,Consumer,Furniture,5900.0
-202407,Consumer,Office Supplies,5900.0
-202407,Consumer,Technology,10500.0
-202407,Corporate,Furniture,4900.0
-202407,Corporate,Office Supplies,3300.0
-202407,Corporate,Technology,1900.0
+202404,Home Office,Furniture,2200.0
+202404,Home Office,Office Supplies,700.0
+202404,Home Office,Technology,2400.0
+202405,Consumer,Furniture,3600.0
+202405,Consumer,Office Supplies,4700.0
+202405,Consumer,Technology,6100.0
+202405,Corporate,Furniture,3600.0
+202405,Corporate,Office Supplies,3200.0
+202405,Corporate,Technology,11900.0
+202405,Home Office,Furniture,2800.0
+202405,Home Office,Office Supplies,1400.0
+202405,Home Office,Technology,2500.0
+202406,Consumer,Furniture,4700.0
+202406,Consumer,Office Supplies,7600.0
+202406,Consumer,Technology,16200.0
+202406,Corporate,Furniture,9000.0
+202406,Corporate,Office Supplies,1500.0
+202406,Corporate,Technology,5300.0
+202406,Home Office,Furniture,2600.0
+202406,Home Office,Office Supplies,3900.0
+202406,Home Office,Technology,5800.0
+202407,Consumer,Furniture,6600.0
+202407,Consumer,Office Supplies,6800.0
+202407,Consumer,Technology,14000.0
+202407,Corporate,Furniture,6800.0
+202407,Corporate,Office Supplies,2400.0
+202407,Corporate,Technology,3000.0
 202407,Home Office,Furniture,500.0
-202407,Home Office,Office Supplies,1500.0
-202407,Home Office,Technology,1500.0
-202408,Consumer,Furniture,6000.0
-202408,Consumer,Office Supplies,10900.0
-202408,Consumer,Technology,5400.0
-202408,Corporate,Furniture,4700.0
-202408,Corporate,Office Supplies,3100.0
-202408,Corporate,Technology,5100.0
-202408,Home Office,Furniture,1400.0
-202408,Home Office,Office Supplies,1100.0
+202407,Home Office,Office Supplies,1300.0
+202407,Home Office,Technology,2600.0
+202408,Consumer,Furniture,5200.0
+202408,Consumer,Office Supplies,9300.0
+202408,Consumer,Technology,5700.0
+202408,Corporate,Furniture,4500.0
+202408,Corporate,Office Supplies,3300.0
+202408,Corporate,Technology,4400.0
+202408,Home Office,Furniture,1300.0
+202408,Home Office,Office Supplies,1600.0
 202408,Home Office,Technology,500.0
-202409,Consumer,Furniture,16900.0
-202409,Consumer,Office Supplies,6700.0
-202409,Consumer,Technology,17000.0
-202409,Corporate,Furniture,9700.0
+202409,Consumer,Furniture,14700.0
+202409,Consumer,Office Supplies,8700.0
+202409,Consumer,Technology,16400.0
+202409,Corporate,Furniture,7900.0
 202409,Corporate,Office Supplies,3500.0
-202409,Corporate,Technology,2900.0
-202409,Home Office,Furniture,1600.0
-202409,Home Office,Office Supplies,6700.0
-202409,Home Office,Technology,1400.0
-202410,Consumer,Furniture,5500.0
-202410,Consumer,Office Supplies,6100.0
-202410,Consumer,Technology,4100.0
-202410,Corporate,Furniture,7000.0
-202410,Corporate,Office Supplies,3500.0
-202410,Corporate,Technology,19600.0
-202410,Home Office,Furniture,3900.0
-202410,Home Office,Office Supplies,4300.0
-202410,Home Office,Technology,5500.0
-202411,Consumer,Furniture,10700.0
-202411,Consumer,Office Supplies,7900.0
-202411,Consumer,Technology,9100.0
-202411,Corporate,Furniture,12400.0
-202411,Corporate,Office Supplies,6300.0
-202411,Corporate,Technology,2200.0
-202411,Home Office,Furniture,3400.0
-202411,Home Office,Office Supplies,7200.0
-202411,Home Office,Technology,4400.0
-202412,Consumer,Furniture,11800.0
-202412,Consumer,Office Supplies,9800.0
-202412,Consumer,Technology,15900.0
-202412,Corporate,Furniture,11700.0
-202412,Corporate,Office Supplies,12300.0
-202412,Corporate,Technology,8600.0
-202412,Home Office,Furniture,2200.0
-202412,Home Office,Office Supplies,5600.0
+202409,Corporate,Technology,2300.0
+202409,Home Office,Furniture,1500.0
+202409,Home Office,Office Supplies,5900.0
+202409,Home Office,Technology,1800.0
+202410,Consumer,Furniture,7500.0
+202410,Consumer,Office Supplies,5200.0
+202410,Consumer,Technology,3700.0
+202410,Corporate,Furniture,7700.0
+202410,Corporate,Office Supplies,3000.0
+202410,Corporate,Technology,16600.0
+202410,Home Office,Furniture,2700.0
+202410,Home Office,Office Supplies,3000.0
+202410,Home Office,Technology,4700.0
+202411,Consumer,Furniture,12800.0
+202411,Consumer,Office Supplies,4200.0
+202411,Consumer,Technology,7500.0
+202411,Corporate,Furniture,9300.0
+202411,Corporate,Office Supplies,7500.0
+202411,Corporate,Technology,2300.0
+202411,Home Office,Furniture,3700.0
+202411,Home Office,Office Supplies,8700.0
+202411,Home Office,Technology,4600.0
+202412,Consumer,Furniture,13700.0
+202412,Consumer,Office Supplies,13300.0
+202412,Consumer,Technology,17500.0
+202412,Corporate,Furniture,10400.0
+202412,Corporate,Office Supplies,11500.0
+202412,Corporate,Technology,12100.0
+202412,Home Office,Furniture,1900.0
+202412,Home Office,Office Supplies,5800.0
 202412,Home Office,Technology,2100.0
-202501,Consumer,Furniture,15100.0
-202501,Consumer,Office Supplies,21600.0
-202501,Consumer,Technology,2000.0
-202501,Corporate,Furniture,5500.0
-202501,Corporate,Office Supplies,11900.0
-202501,Corporate,Technology,8700.0
-202501,Home Office,Furniture,1200.0
-202501,Home Office,Office Supplies,2900.0
+202501,Consumer,Furniture,13400.0
+202501,Consumer,Office Supplies,19300.0
+202501,Consumer,Technology,1700.0
+202501,Corporate,Furniture,7100.0
+202501,Corporate,Office Supplies,11500.0
+202501,Corporate,Technology,10300.0
+202501,Home Office,Furniture,1300.0
+202501,Home Office,Office Supplies,2600.0
 202501,Home Office,Technology,2300.0
-202502,Consumer,Furniture,2400.0
-202502,Consumer,Office Supplies,6400.0
-202502,Consumer,Technology,4800.0
-202502,Corporate,Furniture,2400.0
-202502,Corporate,Office Supplies,2900.0
-202502,Corporate,Technology,1200.0
+202502,Consumer,Furniture,2500.0
+202502,Consumer,Office Supplies,12500.0
+202502,Consumer,Technology,7600.0
+202502,Corporate,Furniture,2500.0
+202502,Corporate,Office Supplies,2100.0
+202502,Corporate,Technology,1300.0
 202502,Home Office,Furniture,500.0
-202502,Home Office,Office Supplies,2500.0
+202502,Home Office,Office Supplies,2100.0
 202502,Home Office,Technology,4900.0
-202503,Consumer,Furniture,3100.0
-202503,Consumer,Office Supplies,3800.0
-202503,Consumer,Technology,3900.0
-202503,Corporate,Furniture,800.0
-202503,Corporate,Office Supplies,4000.0
-202503,Corporate,Technology,3700.0
-202503,Home Office,Furniture,4000.0
-202503,Home Office,Office Supplies,1400.0
-202503,Home Office,Technology,3900.0
-202504,Consumer,Furniture,5600.0
-202504,Consumer,Office Supplies,5600.0
-202504,Consumer,Technology,15300.0
-202504,Corporate,Furniture,4700.0
-202504,Corporate,Office Supplies,8000.0
-202504,Corporate,Technology,13000.0
-202504,Home Office,Furniture,1500.0
-202504,Home Office,Office Supplies,4000.0
-202504,Home Office,Technology,3000.0
-202505,Consumer,Furniture,7200.0
+202503,Consumer,Furniture,3300.0
+202503,Consumer,Office Supplies,4200.0
+202503,Consumer,Technology,3300.0
+202503,Corporate,Furniture,1000.0
+202503,Corporate,Office Supplies,4300.0
+202503,Corporate,Technology,2300.0
+202503,Home Office,Furniture,5200.0
+202503,Home Office,Office Supplies,2500.0
+202503,Home Office,Technology,3700.0
+202504,Consumer,Furniture,5100.0
+202504,Consumer,Office Supplies,3800.0
+202504,Consumer,Technology,23200.0
+202504,Corporate,Furniture,4900.0
+202504,Corporate,Office Supplies,5800.0
+202504,Corporate,Technology,10100.0
+202504,Home Office,Furniture,2000.0
+202504,Home Office,Office Supplies,4500.0
+202504,Home Office,Technology,3500.0
+202505,Consumer,Furniture,6900.0
 202505,Consumer,Office Supplies,4300.0
-202505,Consumer,Technology,3800.0
-202505,Corporate,Furniture,5400.0
-202505,Corporate,Office Supplies,4500.0
+202505,Consumer,Technology,3500.0
+202505,Corporate,Furniture,7800.0
+202505,Corporate,Office Supplies,6400.0
 202505,Corporate,Technology,1800.0
-202505,Home Office,Furniture,1400.0
-202505,Home Office,Office Supplies,2500.0
-202505,Home Office,Technology,8500.0
-202506,Consumer,Furniture,5000.0
-202506,Consumer,Office Supplies,6000.0
-202506,Consumer,Technology,4200.0
-202506,Corporate,Furniture,3800.0
-202506,Corporate,Office Supplies,6800.0
+202505,Home Office,Furniture,2000.0
+202505,Home Office,Office Supplies,1600.0
+202505,Home Office,Technology,5300.0
+202506,Consumer,Furniture,5700.0
+202506,Consumer,Office Supplies,6700.0
+202506,Consumer,Technology,5300.0
+202506,Corporate,Furniture,5400.0
+202506,Corporate,Office Supplies,6400.0
 202506,Corporate,Technology,2500.0
-202506,Home Office,Furniture,6400.0
-202506,Home Office,Office Supplies,1500.0
-202506,Home Office,Technology,1600.0
-202507,Consumer,Furniture,12100.0
-202507,Consumer,Office Supplies,6300.0
-202507,Consumer,Technology,7500.0
-202507,Corporate,Furniture,2100.0
-202507,Corporate,Office Supplies,6700.0
-202507,Corporate,Technology,8100.0
-202507,Home Office,Furniture,3000.0
-202507,Home Office,Office Supplies,2900.0
-202507,Home Office,Technology,11200.0
-202508,Consumer,Furniture,6600.0
-202508,Consumer,Office Supplies,7600.0
-202508,Consumer,Technology,7700.0
-202508,Corporate,Furniture,5600.0
-202508,Corporate,Office Supplies,2100.0
-202508,Corporate,Technology,8900.0
+202506,Home Office,Furniture,5000.0
+202506,Home Office,Office Supplies,2000.0
+202506,Home Office,Technology,2200.0
+202507,Consumer,Furniture,10300.0
+202507,Consumer,Office Supplies,7600.0
+202507,Consumer,Technology,5500.0
+202507,Corporate,Furniture,3000.0
+202507,Corporate,Office Supplies,4700.0
+202507,Corporate,Technology,6500.0
+202507,Home Office,Furniture,4100.0
+202507,Home Office,Office Supplies,3000.0
+202507,Home Office,Technology,10300.0
+202508,Consumer,Furniture,8200.0
+202508,Consumer,Office Supplies,8900.0
+202508,Consumer,Technology,7500.0
+202508,Corporate,Furniture,3500.0
+202508,Corporate,Office Supplies,2300.0
+202508,Corporate,Technology,8100.0
 202508,Home Office,Furniture,500.0
 202508,Home Office,Office Supplies,1900.0
-202508,Home Office,Technology,2200.0
-202509,Consumer,Furniture,13900.0
-202509,Consumer,Office Supplies,17000.0
-202509,Consumer,Technology,7800.0
-202509,Corporate,Furniture,6400.0
-202509,Corporate,Office Supplies,20700.0
-202509,Corporate,Technology,7100.0
-202509,Home Office,Furniture,3300.0
-202509,Home Office,Office Supplies,5200.0
-202509,Home Office,Technology,4400.0
-202510,Consumer,Furniture,16300.0
-202510,Consumer,Office Supplies,19600.0
-202510,Consumer,Technology,9300.0
-202510,Corporate,Furniture,6800.0
-202510,Corporate,Office Supplies,11100.0
-202510,Corporate,Technology,15500.0
-202510,Home Office,Furniture,6100.0
-202510,Home Office,Office Supplies,5700.0
-202510,Home Office,Technology,10500.0
+202508,Home Office,Technology,2000.0
+202509,Consumer,Furniture,10700.0
+202509,Consumer,Office Supplies,14200.0
+202509,Consumer,Technology,6300.0
+202509,Corporate,Furniture,9900.0
+202509,Corporate,Office Supplies,19900.0
+202509,Corporate,Technology,10200.0
+202509,Home Office,Furniture,3400.0
+202509,Home Office,Office Supplies,6300.0
+202509,Home Office,Technology,4000.0
+202510,Consumer,Furniture,14800.0
+202510,Consumer,Office Supplies,15100.0
+202510,Consumer,Technology,11100.0
+202510,Corporate,Furniture,4100.0
+202510,Corporate,Office Supplies,18000.0
+202510,Corporate,Technology,9500.0
+202510,Home Office,Furniture,4500.0
+202510,Home Office,Office Supplies,4800.0
+202510,Home Office,Technology,10400.0
 202511,Consumer,Furniture,7400.0
-202511,Consumer,Office Supplies,7400.0
-202511,Consumer,Technology,6800.0
-202511,Corporate,Furniture,10300.0
-202511,Corporate,Office Supplies,10700.0
-202511,Corporate,Technology,14800.0
-202511,Home Office,Furniture,5500.0
-202511,Home Office,Office Supplies,4800.0
-202511,Home Office,Technology,16100.0
-202512,Consumer,Furniture,23600.0
-202512,Consumer,Office Supplies,14900.0
-202512,Consumer,Technology,29400.0
-202512,Corporate,Furniture,7000.0
+202511,Consumer,Office Supplies,8000.0
+202511,Consumer,Technology,6500.0
+202511,Corporate,Furniture,11100.0
+202511,Corporate,Office Supplies,6800.0
+202511,Corporate,Technology,15700.0
+202511,Home Office,Furniture,6200.0
+202511,Home Office,Office Supplies,3400.0
+202511,Home Office,Technology,23900.0
+202512,Consumer,Furniture,16600.0
+202512,Consumer,Office Supplies,16800.0
+202512,Consumer,Technology,34600.0
+202512,Corporate,Furniture,9400.0
 202512,Corporate,Office Supplies,9800.0
-202512,Corporate,Technology,9200.0
-202512,Home Office,Furniture,12400.0
-202512,Home Office,Office Supplies,6200.0
-202512,Home Office,Technology,5300.0
-202601,Consumer,Furniture,9700.0
-202601,Consumer,Office Supplies,8100.0
-202601,Consumer,Technology,2500.0
-202601,Corporate,Furniture,1600.0
-202601,Corporate,Office Supplies,6100.0
-202601,Corporate,Technology,900.0
-202601,Home Office,Furniture,800.0
-202601,Home Office,Office Supplies,1300.0
-202601,Home Office,Technology,3200.0
+202512,Corporate,Technology,7200.0
+202512,Home Office,Furniture,11300.0
+202512,Home Office,Office Supplies,5600.0
+202512,Home Office,Technology,4900.0
+202601,Consumer,Furniture,12500.0
+202601,Consumer,Office Supplies,8600.0
+202601,Consumer,Technology,2600.0
+202601,Corporate,Furniture,1300.0
+202601,Corporate,Office Supplies,4600.0
+202601,Corporate,Technology,1200.0
+202601,Home Office,Furniture,2000.0
+202601,Home Office,Office Supplies,1500.0
+202601,Home Office,Technology,4900.0
