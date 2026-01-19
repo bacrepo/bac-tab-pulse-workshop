@@ -3,12 +3,21 @@ layout: default
 title: Workshop Guide
 nav_order: 2
 has_children: false
+has_toc: true
 ---
 
 # BAC - Tableau Pulse Workshop 2026
 {: .no_toc }
 
 > Repo: https://bacrepo.github.io/bac-tab-pulse-workshop/  
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 ## Workshop Tasks Overview
 This workshop covers:

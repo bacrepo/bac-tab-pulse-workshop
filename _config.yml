@@ -21,6 +21,11 @@ footer_content: "BAC - Business Applications Co., Ltd. (2026)"
 # Color scheme (optional: light, dark, or custom)
 color_scheme: nil
 
+# Make page wider
+nav_width: 264px
+content_width: 900px
+max_content_width: 1200px
+
 # Enable navigation
 aux_links:
   "Download Datasets":
