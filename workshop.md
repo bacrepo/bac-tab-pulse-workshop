@@ -5,17 +5,6 @@ nav_order: 2
 has_children: false
 ---
 
-# BAC - Tableau Pulse Workshop 2026
-{: .no_toc }
-
-## Table of Contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 > Repo: https://bacrepo.github.io/bac-tab-pulse-workshop/  
 
 ## Workshop Tasks Overview
