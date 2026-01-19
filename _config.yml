@@ -7,4 +7,21 @@ baseurl: "/bac-tab-pulse-workshop"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
+
+# Just the Docs theme
+remote_theme: just-the-docs/just-the-docs
+
+# Just the Docs configuration
+search_enabled: true
+heading_anchors: true
+
+# Enable footer content
+footer_content: "BAC - Business Applications Co., Ltd. (2026)"
+
+# Color scheme (optional: light, dark, or custom)
+color_scheme: nil
+
+# Enable navigation
+aux_links:
+  "Download Datasets":
+    - "//bacrepo.github.io/bac-tab-pulse-workshop/"
