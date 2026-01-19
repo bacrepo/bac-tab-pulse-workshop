@@ -1,0 +1,10 @@
+# Site settings
+title: "BAC - Tableau Pulse Workshop"
+description: "Workshop materials for Tableau Pulse fundamentals"
+url: "https://bacrepo.github.io"
+baseurl: "/bac-tab-pulse-workshop"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
