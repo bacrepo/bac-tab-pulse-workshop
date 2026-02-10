@@ -17,9 +17,27 @@
         }
         .download-card {
             transition: transform 0.2s;
+            border: none;
         }
         .download-card:hover {
             transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+        }
+        .download-card-icon {
+            margin: 0 auto 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .download-card-icon svg {
+            width: 72px;
+            height: 72px;
+        }
+        .download-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            height: 100%;
         }
         .text-purple {
             color: #6f42c1 !important;
@@ -67,79 +85,87 @@
             </div>
 
             <div class="row g-4">
-                <div class="col-lg-3 col-md-4">
+                <div class="col-12 col-lg-6">
                     <div class="card download-card h-100 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="mb-3">
-                                <svg width="48" height="48" fill="currentColor" class="text-primary">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                                    <polyline points="14,2 14,8 20,8"/>
-                                    <line x1="16" y1="13" x2="8" y2="13"/>
-                                    <line x1="16" y1="17" x2="8" y2="17"/>
-                                    <polyline points="10,9 9,9 8,9"/>
-                                </svg>
+                        <a href="SuperStoreSimple.csv" download class="download-link">
+                            <div class="card-body">
+                                <div class="download-card-icon">
+                                    <svg width="48" height="48" fill="currentColor" class="text-primary">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                        <polyline points="14,2 14,8 20,8"/>
+                                        <line x1="16" y1="13" x2="8" y2="13"/>
+                                        <line x1="16" y1="17" x2="8" y2="17"/>
+                                        <polyline points="10,9 9,9 8,9"/>
+                                    </svg>
+                                </div>
+                                <h5 class="card-title text-center">SuperStore (Simple)</h5>
+                                <p class="card-text text-muted text-center small mb-3">Minimal dataset for Tableau Pulse exercises</p>
+                                <div class="btn btn-primary d-block">Download</div>
                             </div>
-                            <h5 class="card-title">SuperStore (Simple)</h5>
-                            <a href="SuperStoreSimple.csv" class="btn btn-primary d-block mb-2" download>Download</a>
-                            <p class="card-text text-muted small">Minimal dataset for Tableau Pulse exercises</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4">
+                <div class="col-12 col-lg-6">
                     <div class="card download-card h-100 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="mb-3">
-                                <svg width="48" height="48" fill="currentColor" class="text-success">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                                    <polyline points="14,2 14,8 20,8"/>
-                                    <line x1="16" y1="13" x2="8" y2="13"/>
-                                    <line x1="16" y1="17" x2="8" y2="17"/>
-                                    <polyline points="10,9 9,9 8,9"/>
-                                </svg>
+                        <a href="SuperStore.csv" download class="download-link">
+                            <div class="card-body">
+                                <div class="download-card-icon">
+                                    <svg width="48" height="48" fill="currentColor" class="text-success">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                        <polyline points="14,2 14,8 20,8"/>
+                                        <line x1="16" y1="13" x2="8" y2="13"/>
+                                        <line x1="16" y1="17" x2="8" y2="17"/>
+                                        <polyline points="10,9 9,9 8,9"/>
+                                    </svg>
+                                </div>
+                                <h5 class="card-title text-center">SuperStore Dataset</h5>
+                                <p class="card-text text-muted text-center small mb-3">Full SuperStore dataset for comprehensive analysis</p>
+                                <div class="btn btn-success d-block">Download</div>
                             </div>
-                            <h5 class="card-title">SuperStore Dataset</h5>
-                            <a href="SuperStore.csv" class="btn btn-success d-block mb-2" download>Download</a>
-                            <p class="card-text text-muted small">Full SuperStore dataset for comprehensive analysis</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4">
+                <div class="col-12 col-lg-6">
                     <div class="card download-card h-100 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="mb-3">
-                                <svg width="48" height="48" fill="currentColor" class="text-success">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                                    <polyline points="14,2 14,8 20,8"/>
-                                    <line x1="16" y1="13" x2="8" y2="13"/>
-                                    <line x1="16" y1="17" x2="8" y2="17"/>
-                                    <polyline points="10,9 9,9 8,9"/>
-                                </svg>
+                        <a href="SuperStoreTarget.csv" download class="download-link">
+                            <div class="card-body">
+                                <div class="download-card-icon">
+                                    <svg width="48" height="48" fill="currentColor" class="text-success">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                        <polyline points="14,2 14,8 20,8"/>
+                                        <line x1="16" y1="13" x2="8" y2="13"/>
+                                        <line x1="16" y1="17" x2="8" y2="17"/>
+                                        <polyline points="10,9 9,9 8,9"/>
+                                    </svg>
+                                </div>
+                                <h5 class="card-title text-center">SuperStore Target</h5>
+                                <p class="card-text text-muted text-center small mb-3">Target data for workshop exercises</p>
+                                <div class="btn btn-success d-block">Download</div>
                             </div>
-                            <h5 class="card-title">SuperStore Target</h5>
-                            <a href="SuperStoreTarget.csv" class="btn btn-success d-block mb-2" download>Download</a>
-                            <p class="card-text text-muted small">Target data for workshop exercises</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4">
+                <div class="col-12 col-lg-6">
                     <div class="card download-card h-100 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="mb-3">
-                                <svg width="48" height="48" fill="currentColor" class="text-purple">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                                    <polyline points="14,2 14,8 20,8"/>
-                                    <line x1="16" y1="13" x2="8" y2="13"/>
-                                    <line x1="16" y1="17" x2="8" y2="17"/>
-                                    <polyline points="10,9 9,9 8,9"/>
-                                </svg>
+                        <a href="Electronic.csv" download class="download-link">
+                            <div class="card-body">
+                                <div class="download-card-icon">
+                                    <svg width="48" height="48" fill="currentColor" class="text-purple">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                        <polyline points="14,2 14,8 20,8"/>
+                                        <line x1="16" y1="13" x2="8" y2="13"/>
+                                        <line x1="16" y1="17" x2="8" y2="17"/>
+                                        <polyline points="10,9 9,9 8,9"/>
+                                    </svg>
+                                </div>
+                                <h5 class="card-title text-center">Workshop File (Electronic)</h5>
+                                <p class="card-text text-muted text-center small mb-3">Electronic dataset for workshop exercises</p>
+                                <div class="btn btn-purple d-block">Download</div>
                             </div>
-                            <h5 class="card-title">Workshop File (Electronic)</h5>
-                            <a href="Electronic.csv" class="btn btn-purple d-block mb-2" download>Download</a>
-                            <p class="card-text text-muted small">Electronic dataset for workshop exercises</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

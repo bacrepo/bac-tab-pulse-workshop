@@ -1,6 +1,6 @@
 # Tableau Pulse Workshop
 
-This repository contains data and resources for the BAC (Business Analytics Club) Tableau Pulse Workshop.
+This repository contains data and resources for the BAC Tableau Pulse Workshop.
 
 ## Files
 
@@ -15,7 +15,3 @@ Visit `index.html` to download the datasets needed for the workshop.
 ## Workshop Materials
 
 [Tableau Pulse Workshop Materials](https://docs.google.com/document/d/1ripUIU1uNssa8BQUbNQkO2arNRwzSTsDpjQTVVn9DPQ/edit?usp=sharing) - Complete workshop guide and instructions.
-
-## Live Site
-
-The workshop materials are automatically deployed to GitHub Pages at: [bac-tab-pulse-workshop.pages.dev](https://bac-tab-pulse-workshop.pages.dev)
