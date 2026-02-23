@@ -213,12 +213,13 @@
 
     <!-- Show Tableau links if URLs exist -->
     <script>
-        // Define Tableau Cloud URLs
+
+        // ── Edit URLs here ────────────────────────────────────────────────────
+        const TABLEAU_SITE_URL = "https://prod-apsoutheast-b.online.tableau.com/#/site/tableau26021-bf9548bc93";
+        // ─────────────────────────────────────────────────────────────────────
+
         const tableauUrls = [
-            {
-                name: "Tableau Pulse Workshop",
-                url: "https://prod-apsoutheast-b.online.tableau.com/#/site/bactableau2602-6a9881e9cd"
-            }
+            { name: "Tableau Pulse Workshop", url: TABLEAU_SITE_URL }
         ];
 
         // Only render if tableauUrls has data
