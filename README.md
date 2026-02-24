@@ -4,8 +4,8 @@ This repository contains data and resources for the BAC Tableau Pulse Workshop.
 
 ## Files
 
-- `SuperStore-Minimal.csv` - Minimal dataset for Tableau Pulse exercises
 - `SuperStore.csv` - Full SuperStore dataset
+- `SuperStoreSimple.csv` - Minimal dataset for Tableau Pulse exercises
 - `SuperStoreTarget.csv` - Target data for workshop exercises
 
 ## Getting Started
