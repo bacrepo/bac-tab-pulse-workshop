@@ -4,229 +4,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BAC - Tableau Pulse Workshop (2026)</title>
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        @keyframes title-glow {
+            0%, 100% { filter: drop-shadow(0 0 18px rgba(0,212,255,0.55)) drop-shadow(0 0 40px rgba(168,85,247,0.3)); }
+            50%       { filter: drop-shadow(0 0 30px rgba(0,212,255,0.9)) drop-shadow(0 0 60px rgba(168,85,247,0.55)); }
         }
-        .download-section {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem 0;
+        @keyframes card-pulse {
+            0%, 100% { box-shadow: 0 0 18px rgba(0,212,255,0.12), inset 0 1px 0 rgba(255,255,255,0.06); }
+            50%       { box-shadow: 0 0 32px rgba(0,212,255,0.28), inset 0 1px 0 rgba(255,255,255,0.08); }
         }
-        .download-card {
-            transition: transform 0.2s;
-            border: none;
-        }
-        .download-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
-        }
-        .download-card-icon {
-            margin: 0 auto 1.5rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .download-card-icon svg {
-            width: 72px;
-            height: 72px;
-        }
-        .download-link {
-            text-decoration: none;
-            color: inherit;
-            display: block;
-            height: 100%;
-        }
-        .text-purple {
-            color: #6f42c1 !important;
-        }
-        .btn-purple {
-            background-color: #6f42c1;
-            border-color: #6f42c1;
-            color: white;
-        }
-        .btn-purple:hover {
-            background-color: #5a32a3;
-            border-color: #5a32a3;
-            color: white;
-        }
-        .btn-dark-blue {
-            background-color: #003366;
-            border-color: #003366;
-            color: white;
-        }
-        .btn-dark-blue:hover {
-            background-color: #002244;
-            border-color: #002244;
-            color: white;
-        }
-        .tableau-table {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .tableau-table table {
-            font-size: 0.95rem;
-        }
-        .tableau-table td a {
-            color: #003366;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        .tableau-table td a:hover {
-            text-decoration: underline;
-            color: #6f42c1;
-        }
+        .card-blue  { animation: card-pulse 4s ease-in-out infinite; transition: transform 0.25s, box-shadow 0.25s; }
+        .card-green { transition: transform 0.25s, box-shadow 0.25s; }
+        .card-teal  { transition: transform 0.25s, box-shadow 0.25s; }
+        .card-purple{ transition: transform 0.25s, box-shadow 0.25s; }
+        .card-blue:hover   { transform: translateY(-5px); box-shadow: 0 0 36px rgba(59,130,246,0.5),  inset 0 1px 0 rgba(255,255,255,0.09) !important; }
+        .card-green:hover  { transform: translateY(-5px); box-shadow: 0 0 36px rgba(52,211,153,0.5),  inset 0 1px 0 rgba(255,255,255,0.09) !important; }
+        .card-teal:hover   { transform: translateY(-5px); box-shadow: 0 0 36px rgba(20,184,166,0.5),  inset 0 1px 0 rgba(255,255,255,0.09) !important; }
+        .card-purple:hover { transform: translateY(-5px); box-shadow: 0 0 36px rgba(168,85,247,0.5),  inset 0 1px 0 rgba(255,255,255,0.09) !important; }
+        .btn-glow { transition: opacity 0.2s, transform 0.2s; }
+        .btn-glow:hover { opacity: 0.82; transform: translateY(-2px); }
+        /* JS-generated Tableau table */
+        #tableauContainer table { width: 100%; border-collapse: collapse; border-radius: 12px; overflow: hidden; }
+        #tableauContainer th { background: rgba(0,212,255,0.12); color: #00d4ff; padding: 11px 16px; text-align: left; font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; border-bottom: 1px solid rgba(0,212,255,0.25); }
+        #tableauContainer td { padding: 11px 16px; color: #cbd5e1; font-family: 'Inter', sans-serif; font-weight: 400; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        #tableauContainer td a { color: #00d4ff; text-decoration: none; }
+        #tableauContainer td a:hover { text-decoration: underline; color: #a855f7; }
+        #tableauContainer tr:hover td { background: rgba(0,212,255,0.04); }
+        #tableauContainer strong { color: #e2e8f0; font-weight: 700; }
     </style>
 </head>
-<body class="bg-light">
-    <div class="container">
-        <div class="download-section">
-            <div class="text-center mb-5">
-                <h2 class="display-3 fw-bold text-primary mb-3">Tableau Pulse Workshop (2026)</h2>
-                <h4><a href="https://bit.ly/tab-pulse-26" target="_blank">https://bit.ly/tab-pulse-26</a></h4>
-                
-                <!-- Tableau Cloud URLs Table -->
-                <div id="tableauContainer"></div>
-                <a href="https://docs.google.com/document/d/1ripUIU1uNssa8BQUbNQkO2arNRwzSTsDpjQTVVn9DPQ/edit?usp=sharing" class="btn btn-dark-blue btn-lg" target="_blank">
-                    <svg width="20" height="20" fill="currentColor" class="me-2" viewBox="0 0 24 24">
-                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/>
-                        <path d="M14 2v6h6"/>
-                        <path d="M16 13H8"/>
-                        <path d="M16 17H8"/>
-                        <path d="M10 9H8"/>
-                    </svg>
-                    Workshop Documentation
-                </a>
+<body style="background-color: #05050f; background-image: radial-gradient(ellipse 70% 55% at 15% 10%, rgba(0,212,255,0.07) 0%, transparent 65%), radial-gradient(ellipse 60% 50% at 85% 90%, rgba(168,85,247,0.07) 0%, transparent 65%); min-height: 100vh; font-family: 'Inter', sans-serif; color: #e2e8f0;">
+
+    <!-- Subtle grid overlay -->
+    <div style="position: fixed; inset: 0; background-image: linear-gradient(rgba(0,212,255,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(0,212,255,0.025) 1px, transparent 1px); background-size: 44px 44px; pointer-events: none; z-index: 0;"></div>
+
+    <div style="position: relative; z-index: 1; max-width: 860px; margin: 0 auto; padding: 3.5rem 1.5rem 2.5rem;">
+
+        <!-- ── Header ── -->
+        <div style="text-align: center; margin-bottom: 3.5rem;">
+
+            <!-- Title -->
+            <h1 style="font-size: clamp(2rem, 5.5vw, 3.6rem); font-weight: 700; line-height: 1.15; margin-bottom: 0.35rem; background: linear-gradient(135deg, #ffffff 0%, #7dd3fc 40%, #a855f7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; animation: title-glow 3.5s ease-in-out infinite;">
+                Tableau Pulse Workshop (2026)
+            </h1>
+            <!-- Short URL -->
+            <div style="margin-bottom: 2rem;">
+                <a href="https://bit.ly/tab-pulse-26" target="_blank" style="display: inline-block; color: #ffffff; font-weight: 700; font-size: 1.2rem; text-decoration: none; padding: 0.45rem 1.1rem; border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; background: rgba(255,255,255,0.025); letter-spacing: 0.02em;">https://bit.ly/tab-pulse-26</a>
             </div>
 
-            <div class="row g-4">
-                <div class="col-12 col-lg-6">
-                    <div class="card download-card h-100 shadow-sm">
-                        <a href="SuperStoreSimple.csv" download class="download-link">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">SuperStore (Simple) Dataset</h5>
-                                <p class="card-text text-muted text-center small mb-3">Minimal dataset for Tableau Pulse exercises</p>
-                                <div class="btn btn-primary d-block">Download</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            <!-- Tableau Cloud table (JS populated) -->
+            <div id="tableauContainer" style="margin-bottom: 2rem; border: 1px solid rgba(0,212,255,0.15); border-radius: 12px; overflow: hidden; background: rgba(0,212,255,0.03);"></div>
 
-                <div class="col-12 col-lg-6">
-                    <div class="card download-card h-100 shadow-sm">
-                        <a href="SuperStore.csv" download class="download-link">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">SuperStore Dataset</h5>
-                                <p class="card-text text-muted text-center small mb-3">Full SuperStore dataset for comprehensive analysis</p>
-                                <div class="btn btn-success d-block">Download</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            <!-- Workshop Docs Button -->
+            <a href="https://docs.google.com/document/d/1ripUIU1uNssa8BQUbNQkO2arNRwzSTsDpjQTVVn9DPQ/edit?usp=sharing" target="_blank" class="btn-glow" style="display: inline-flex; align-items: center; gap: 0.55rem; background: linear-gradient(135deg, #0c2340 0%, #1e3a5f 100%); color: #e2e8f0; font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.88rem; padding: 0.78rem 1.8rem; border-radius: 10px; text-decoration: none; border: 1px solid rgba(30,100,200,0.45); box-shadow: 0 0 22px rgba(30,100,200,0.28); letter-spacing: 0.04em;">
+                <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/>
+                    <polyline points="14 2 14 8 20 8"/>
+                    <line x1="16" y1="13" x2="8" y2="13"/>
+                    <line x1="16" y1="17" x2="8" y2="17"/>
+                    <line x1="10" y1="9" x2="8" y2="9"/>
+                </svg>
+                Workshop Documentation
+            </a>
+        </div>
 
-                <div class="col-12 col-lg-6">
-                    <div class="card download-card h-100 shadow-sm">
-                        <a href="SuperStoreTarget.csv" download class="download-link">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">SuperStore Target Dataset</h5>
-                                <p class="card-text text-muted text-center small mb-3">Target data for workshop exercises</p>
-                                <div class="btn btn-success d-block">Download</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+        <!-- ── Download Cards ── -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1.2rem; margin-bottom: 2.5rem;">
 
-                <div class="col-12 col-lg-6">
-                    <div class="card download-card h-100 shadow-sm">
-                        <a href="Workshop.csv" download class="download-link">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Workshop Dataset</h5>
-                                <p class="card-text text-muted text-center small mb-3">Dataset for workshop exercises</p>
-                                <div class="btn btn-purple d-block">Download</div>
-                            </div>
-                        </a>
+            <!-- Card 1 — SuperStore Simple (blue) -->
+            <a href="SuperStoreSimple.csv" download style="text-decoration: none; display: block;">
+                <div class="card-blue" style="background: rgba(255,255,255,0.025); border: 1px solid rgba(59,130,246,0.3); border-radius: 16px; padding: 2rem 1.75rem; text-align: center; box-shadow: 0 0 18px rgba(59,130,246,0.12), inset 0 1px 0 rgba(255,255,255,0.06); height: 100%;">
+                    <div style="width: 54px; height: 54px; margin: 0 auto 1.2rem; background: rgba(59,130,246,0.12); border-radius: 13px; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(59,130,246,0.28); box-shadow: 0 0 14px rgba(59,130,246,0.25);">
+                        <svg width="26" height="26" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
                     </div>
+                    <h3 style="color: #f1f5f9; font-weight: 700; font-size: 0.97rem; margin-bottom: 0.45rem; font-family: 'Inter', sans-serif; letter-spacing: 0.01em;">SuperStore (Simple) Dataset</h3>
+                    <p style="color: #475569; font-size: 0.8rem; font-weight: 400; margin-bottom: 1.2rem; font-family: 'Inter', sans-serif; line-height: 1.5;">Minimal dataset for Tableau Pulse exercises</p>
+                    <div style="display: inline-block; background: linear-gradient(135deg, #1d4ed8, #3b82f6); color: #fff; font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.75rem; padding: 0.48rem 1.35rem; border-radius: 8px; box-shadow: 0 0 16px rgba(59,130,246,0.45); letter-spacing: 0.08em; text-transform: uppercase;">Download</div>
                 </div>
+            </a>
+
+            <!-- Card 2 — SuperStore Full (green) -->
+            <a href="SuperStore.csv" download style="text-decoration: none; display: block;">
+                <div class="card-green" style="background: rgba(255,255,255,0.025); border: 1px solid rgba(52,211,153,0.28); border-radius: 16px; padding: 2rem 1.75rem; text-align: center; box-shadow: 0 0 18px rgba(52,211,153,0.08), inset 0 1px 0 rgba(255,255,255,0.06); height: 100%;">
+                    <div style="width: 54px; height: 54px; margin: 0 auto 1.2rem; background: rgba(52,211,153,0.1); border-radius: 13px; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(52,211,153,0.26); box-shadow: 0 0 14px rgba(52,211,153,0.2);">
+                        <svg width="26" height="26" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                    </div>
+                    <h3 style="color: #f1f5f9; font-weight: 700; font-size: 0.97rem; margin-bottom: 0.45rem; font-family: 'Inter', sans-serif; letter-spacing: 0.01em;">SuperStore Dataset</h3>
+                    <p style="color: #475569; font-size: 0.8rem; font-weight: 400; margin-bottom: 1.2rem; font-family: 'Inter', sans-serif; line-height: 1.5;">Full SuperStore dataset for comprehensive analysis</p>
+                    <div style="display: inline-block; background: linear-gradient(135deg, #065f46, #059669); color: #fff; font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.75rem; padding: 0.48rem 1.35rem; border-radius: 8px; box-shadow: 0 0 16px rgba(52,211,153,0.4); letter-spacing: 0.08em; text-transform: uppercase;">Download</div>
+                </div>
+            </a>
+
+            <!-- Card 3 — SuperStore Target (teal) -->
+            <a href="SuperStoreTarget.csv" download style="text-decoration: none; display: block;">
+                <div class="card-teal" style="background: rgba(255,255,255,0.025); border: 1px solid rgba(20,184,166,0.28); border-radius: 16px; padding: 2rem 1.75rem; text-align: center; box-shadow: 0 0 18px rgba(20,184,166,0.08), inset 0 1px 0 rgba(255,255,255,0.06); height: 100%;">
+                    <div style="width: 54px; height: 54px; margin: 0 auto 1.2rem; background: rgba(20,184,166,0.1); border-radius: 13px; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(20,184,166,0.26); box-shadow: 0 0 14px rgba(20,184,166,0.2);">
+                        <svg width="26" height="26" fill="none" stroke="#14b8a6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                    </div>
+                    <h3 style="color: #f1f5f9; font-weight: 700; font-size: 0.97rem; margin-bottom: 0.45rem; font-family: 'Inter', sans-serif; letter-spacing: 0.01em;">SuperStore Target Dataset</h3>
+                    <p style="color: #475569; font-size: 0.8rem; font-weight: 400; margin-bottom: 1.2rem; font-family: 'Inter', sans-serif; line-height: 1.5;">Target data for workshop exercises</p>
+                    <div style="display: inline-block; background: linear-gradient(135deg, #134e4a, #0d9488); color: #fff; font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.75rem; padding: 0.48rem 1.35rem; border-radius: 8px; box-shadow: 0 0 16px rgba(20,184,166,0.4); letter-spacing: 0.08em; text-transform: uppercase;">Download</div>
+                </div>
+            </a>
+
+            <!-- Card 4 — Workshop (purple) -->
+            <a href="Workshop.csv" download style="text-decoration: none; display: block;">
+                <div class="card-purple" style="background: rgba(255,255,255,0.025); border: 1px solid rgba(168,85,247,0.3); border-radius: 16px; padding: 2rem 1.75rem; text-align: center; box-shadow: 0 0 18px rgba(168,85,247,0.1), inset 0 1px 0 rgba(255,255,255,0.06); height: 100%;">
+                    <div style="width: 54px; height: 54px; margin: 0 auto 1.2rem; background: rgba(168,85,247,0.1); border-radius: 13px; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(168,85,247,0.28); box-shadow: 0 0 14px rgba(168,85,247,0.25);">
+                        <svg width="26" height="26" fill="none" stroke="#a855f7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                    </div>
+                    <h3 style="color: #f1f5f9; font-weight: 700; font-size: 0.97rem; margin-bottom: 0.45rem; font-family: 'Inter', sans-serif; letter-spacing: 0.01em;">Workshop Dataset</h3>
+                    <p style="color: #475569; font-size: 0.8rem; font-weight: 400; margin-bottom: 1.2rem; font-family: 'Inter', sans-serif; line-height: 1.5;">Dataset for workshop exercises</p>
+                    <div style="display: inline-block; background: linear-gradient(135deg, #581c87, #9333ea); color: #fff; font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.75rem; padding: 0.48rem 1.35rem; border-radius: 8px; box-shadow: 0 0 16px rgba(168,85,247,0.45); letter-spacing: 0.08em; text-transform: uppercase;">Download</div>
+                </div>
+            </a>
+        </div>
+
+        <!-- ── Register Alert ── -->
+        <div style="background: rgba(0,212,255,0.04); border: 1px solid rgba(0,212,255,0.18); border-radius: 14px; padding: 1.1rem 1.4rem; display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+            <div style="flex-shrink: 0; width: 38px; height: 38px; background: rgba(0,212,255,0.1); border-radius: 10px; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(0,212,255,0.2); box-shadow: 0 0 12px rgba(0,212,255,0.2);">
+                <svg width="19" height="19" fill="#00d4ff" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
             </div>
+            <p style="color: #94a3b8; font-size: 0.88rem; font-weight: 400; font-family: 'Inter', sans-serif; margin: 0; line-height: 1.5;">
+                <strong style="color: #e2e8f0; font-weight: 700;">Register Tableau ID</strong>
+                <a href="https://id.tableau.com/register" target="_blank" style="color: #00d4ff; font-weight: 400; text-decoration: none; margin: 0 0.25rem;">[here]</a>
+                if you don't have it now.
+            </p>
+        </div>
 
-            <!-- Tableau Cloud URLs Table -->
-            <div id="tableauContainer" class="tableau-table mt-5 mb-5"></div>
+        <!-- ── Registration Form Button ── -->
+        <div style="text-align: center; margin-bottom: 3rem;">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSftMNzrqoDFXI_d9Z0ie1m6MS-BLP95nnoJ0Jm273Ru8GEbRg/viewform" target="_blank" class="btn-glow" style="display: inline-flex; align-items: center; gap: 0.55rem; background: linear-gradient(135deg, #1e3a8a, #2563eb); color: #fff; font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.9rem; padding: 0.85rem 2.2rem; border-radius: 10px; text-decoration: none; border: 1px solid rgba(59,130,246,0.45); box-shadow: 0 0 28px rgba(59,130,246,0.38); letter-spacing: 0.04em;">
+                Workshop Registration Form
+            </a>
+        </div>
 
-            <div class="alert alert-info mb-4 mt-4" role="alert">
-                <div class="d-flex align-items-center">
-                    <svg width="24" height="24" fill="currentColor" class="me-3">
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                    </svg>
-                    <div>
-                        <strong>Register Tableau ID</strong> <a href="https://id.tableau.com/register" target="_blank" class="alert-link">[here]</a> if you don't have it now.
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mb-4">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSftMNzrqoDFXI_d9Z0ie1m6MS-BLP95nnoJ0Jm273Ru8GEbRg/viewform" class="btn btn-primary" target="_blank">
-                    Workshop Registration Form
-                </a>
-            </div>
-            <div></div>
-            <div class="text-center mt-5">
-                <p class="text-muted">BAC - Business Applications Co., Ltd. (2026)</p>
-            </div>
+        <!-- ── Footer ── -->
+        <div style="text-align: center; padding-top: 1.75rem; border-top: 1px solid rgba(255,255,255,0.06);">
+            <p style="color: #2d3748; font-size: 0.8rem; font-weight: 400; font-family: 'Inter', sans-serif; letter-spacing: 0.06em;">BAC — Business Applications Co., Ltd. (2026)</p>
         </div>
     </div>
 
-    <!-- Bootstrap 5 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Show Tableau links if URLs exist -->
     <script>
-
-        // ── Edit URLs here ────────────────────────────────────────────────────
         const TABLEAU_SITE_URL = "https://prod-apsoutheast-b.online.tableau.com/#/site/tableau26021-bf9548bc93";
-        // ─────────────────────────────────────────────────────────────────────
+        const tableauUrls = [{ name: "Tableau Pulse Workshop", url: TABLEAU_SITE_URL }];
 
-        const tableauUrls = [
-            { name: "Tableau Pulse Workshop", url: TABLEAU_SITE_URL }
-        ];
-
-        // Only render if tableauUrls has data
         if (tableauUrls && tableauUrls.length > 0) {
             const container = document.getElementById('tableauContainer');
-            
-            // Filter only valid URLs
             const validUrls = tableauUrls.filter(item => item.url && item.url.startsWith('https://'));
-            
-            // Only render table if there are valid URLs
             if (validUrls.length > 0) {
-                let html = `
-                <br/>
-                    <table class="table table-striped table-hover">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>Name</th>
-                                <th>Link</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                             <br/>
-                `;
-                
+                let html = '<table><thead><tr><th>Name</th><th>Link</th></tr></thead><tbody>';
                 validUrls.forEach(item => {
-                    html += `
-                        <tr>
-                            <td><strong>${item.name}</strong></td>
-                            <td><a href="${item.url}" target="_blank">${item.url}</a></td>
-                        </tr>
-                    `;
+                    html += `<tr><td><strong>${item.name}</strong></td><td><a href="${item.url}" target="_blank">${item.url}</a></td></tr>`;
                 });
-                
-                html += `
-                        </tbody>
-                    </table>
-                `;
-                
+                html += '</tbody></table>';
                 container.innerHTML = html;
+            } else {
+                container.style.display = 'none';
             }
         }
     </script>
