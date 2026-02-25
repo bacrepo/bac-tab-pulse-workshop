@@ -8,6 +8,7 @@ __pycache__/
 
 # Code
 *.py
+*.bak
 raw_data/
 backup/
 
